@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andexert.library.RippleView xmlns:android="http://schemas.android.com/apk/res/android"
+    rv_centered="true"
+    rv_color="@color/colorLightGray"
+    rv_rippleDuration="100"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/default_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/listGames.item.background"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/default_padding">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlayer1"
+                style="@style/fragmentGame_textView_playerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvResult1"
+                style="@style/fragmentGame_textView_result"
+                android:layout_width="@dimen/circle_background_diameter"
+                android:layout_height="@dimen/circle_background_diameter" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlayer2"
+                style="@style/fragmentGame_textView_playerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvResult2"
+                style="@style/fragmentGame_textView_result"
+                android:layout_width="@dimen/circle_background_diameter"
+                android:layout_height="@dimen/circle_background_diameter" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlayer3"
+                style="@style/fragmentGame_textView_playerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvResult3"
+                style="@style/fragmentGame_textView_result"
+                android:layout_width="@dimen/circle_background_diameter"
+                android:layout_height="@dimen/circle_background_diameter" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlayer4"
+                style="@style/fragmentGame_textView_playerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvResult4"
+                style="@style/fragmentGame_textView_result"
+                android:layout_width="@dimen/circle_background_diameter"
+                android:layout_height="@dimen/circle_background_diameter" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.andexert.library.RippleView>

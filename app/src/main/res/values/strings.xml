@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">GhiDiemTienLen</string>
+    <string name="new_game">Lượt chơi mới</string>
+    <string name="result_activity_name">Kết quả</string>
+    <string name="playerName_title">Người chơi</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="player3">Player 3</string>
+    <string name="player4">Player 4</string>
+    <string name="game_setting_title">Cài đặt</string>
+    <string name="setting_number_of_turns_title">Số ván chơi</string>
+    <string name="setting_hide_number_of_current_turns_title">Ẩn số ván hiện tại</string>
+    <string name="setting_hide_current_scrore_title">Ẩn số điểm hiện tại</string>
+    <string name="start_game">Bắt đầu</string>
+    <string name="back">Quay lại</string>
+    <string name="tracking">Ghi Điểm</string>
+    <string name="confirm_exit_message">Thông báo</string>
+    <string name="btnOK">OK</string>
+    <string name="btnCancel">Hủy</string>
+    <string name="confirm_exit_tracking">Ván bài chưa xong!\nBạn có thực sự muốn thoát?</string>
+    <string name="end_game_message">Ván bài đã kết thúc!</string>
+    <string name="btnEndGame">Xem kết quả</string>
+    <string name="end_game_title_dialog">Kết thúc</string>
+    <string name="menu_clear_all_data">Xóa tất cả</string>
+    <string name="confirm_delete_game">Bạn có chắc chắn muốn xóa?</string>
+    <string name="update_score">Sửa điểm</string>
+    <string name="add_score">Ghi điểm</string>
+    <string name="validate_players_name_message">Tên ngắn thôi, 8 ký tự</string>
+    <string name="validate_empty_string">Không được để trống</string>
+    <string name="validate_number_of_turn_is_zero">Số lượng ván phải lớn hơn 0</string>
+    <string name="menu_share">Chia sẻ</string>
+    <string name="file_name_result_screenshot">ghidiemdanhbai.png</string>
+    <string name="menu_add_turn_result">Thêm kết quả</string>
+    <string name="validate_duplicate_content">Tên không được trùng</string>
+</resources>

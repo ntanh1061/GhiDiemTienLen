@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvConfirmTitle"
+        style="@style/fragmentNewGame_textView_playerNameSettingTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLightGray" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/colorLightGray" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlayer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="abcdefgh" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorLightGray" />
+
+            <com.shawnlin.numberpicker.NumberPicker
+                android:id="@+id/numberPicker1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:np_dividerColor="@color/colorPrimary"
+                app:np_height="180dp"
+                app:np_max="20"
+                app:np_min="-20"
+                app:np_textColor="@color/colorPrimary"
+                app:np_width="64dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/colorLightGray" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlayer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="abcdefgh" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorLightGray" />
+
+            <com.shawnlin.numberpicker.NumberPicker
+                android:id="@+id/numberPicker2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:np_dividerColor="@color/colorPrimary"
+                app:np_height="180dp"
+                app:np_max="20"
+                app:np_min="-20"
+                app:np_textColor="@color/colorPrimary"
+                app:np_width="64dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/colorLightGray" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlayer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="abcdefgh" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorLightGray" />
+
+            <com.shawnlin.numberpicker.NumberPicker
+                android:id="@+id/numberPicker3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:np_dividerColor="@color/colorPrimary"
+                app:np_height="180dp"
+                app:np_max="20"
+                app:np_min="-20"
+                app:np_textColor="@color/colorPrimary"
+                app:np_width="64dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/colorLightGray" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlayer4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="abcdefgh" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorLightGray" />
+
+            <com.shawnlin.numberpicker.NumberPicker
+                android:id="@+id/numberPicker4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:np_dividerColor="@color/colorPrimary"
+                app:np_height="180dp"
+                app:np_max="20"
+                app:np_min="-20"
+                app:np_textColor="@color/colorPrimary"
+                app:np_width="64dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/colorLightGray" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLightGray" />
+
+    <com.andexert.library.RippleView
+        rv_centered="true"
+        rv_color="@color/colorLightGray"
+        rv_rippleDuration="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnOK"
+            style="@style/fragmentNewGame_textView_playerNameSettingTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+
+    </com.andexert.library.RippleView>
+
+</LinearLayout>
